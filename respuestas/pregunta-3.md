@@ -1,0 +1,1 @@
+MATCH (p:Persona)-[]-(t:Tecnologia {nombre: 'Neo4j'}) RETURN p

@@ -1,0 +1,1 @@
+MATCH (p:Persona)-[]-(:Tecnologia)-[]-(otra:Persona) WHERE p <> otra RETURN DISTINCT p
